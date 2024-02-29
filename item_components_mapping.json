@@ -103,43 +103,43 @@
   },
   "pages": {
     "writable_book": {
-      "name": "writable_book_contents.pages[].text"
+      "name": "writable_book_content.pages[].text"
     },
     "written_book": {
-      "name": "written_book_contents.pages[].text"
+      "name": "written_book_content.pages[].text"
     }
   },
   "filtered_pages": {
     "writable_book": {
-      "name": "writable_book_contents.pages[].filtered"
+      "name": "writable_book_content.pages[].filtered"
     },
     "written_book": {
-      "name": "written_book_contents.pages[].filtered"
+      "name": "written_book_content.pages[].filtered"
     }
   },
   "title": {
     "*": {
-      "name": "written_book_contents.title.text"
+      "name": "written_book_content.title.text"
     }
   },
   "filtered.title": {
     "*": {
-      "name": "written_book_contents.title.filtered"
+      "name": "written_book_content.title.filtered"
     }
   },
   "author": {
     "*": {
-      "name": "written_book_contents.author"
+      "name": "written_book_content.author"
     }
   },
   "generation": {
     "*": {
-      "name": "written_book_contents.generation"
+      "name": "written_book_content.generation"
     }
   },
   "resolved": {
     "*": {
-      "name": "written_book_contents.resolved"
+      "name": "written_book_content.resolved"
     }
   },
   "trim": {
