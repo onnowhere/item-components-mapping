@@ -1,0 +1,569 @@
+{
+  "Damage": {
+    "*": {
+      "name": "damage"
+    }
+  },
+  "RepairCost": {
+    "*": {
+      "name": "repair_cost"
+    }
+  },
+  "Unbreakable": {
+    "*": {
+      "name": "unbreakable"
+    }
+  },
+  "Enchantments": {
+    "*": {
+      "name": "enchantments"
+    }
+  },
+  "StoredEnchantments": {
+    "*": {
+      "name": "stored_enchantments"
+    }
+  },
+  "display.Lore": {
+    "*": {
+      "name": "lore"
+    }
+  },
+  "display.Name": {
+    "*": {
+      "name": "custom_name"
+    }
+  },
+  "CanDestroy": {
+    "*": {
+      "name": "can_break"
+    }
+  },
+  "CanPlaceOn": {
+    "*": {
+      "name": "can_place_on"
+    }
+  },
+  "display.color": {
+    "*": {
+      "name": "dyed_color"
+    }
+  },
+  "AttributeModifiers": {
+    "*": {
+      "name": "modifiers"
+    }
+  },
+  "Charged": {
+  },
+  "ChargedProjectiles": {
+    "*": {
+      "name": "charged_projectiles"
+    }
+  },
+  "Items": {
+    "*": {
+      "name": "bundle_contents"
+    }
+  },
+  "display.MapColor": {
+    "*": {
+      "name": "map_color"
+    }
+  },
+  "Decorations": {
+    "*": {
+      "name": "map_decorations"
+    }
+  },
+  "map": {
+    "*": {
+      "name": "map_id"
+    }
+  },
+  "CustomModelData": {
+    "*": {
+      "name": "custom_model_data"
+    }
+  },
+  "Potion": {
+    "*": {
+      "name": "potion_contents.potion"
+    }
+  },
+  "CustomPotionColor": {
+    "*": {
+      "name": "potion_contents.custom_color"
+    }
+  },
+  "custom_potion_effects": {
+    "*": {
+      "name": "potion_contents:custom_effects"
+    }
+  },
+  "pages": {
+    "writable_book": {
+      "name": "writable_book_contents.pages[].text"
+    },
+    "written_book": {
+      "name": "written_book_contents.pages[].text"
+    }
+  },
+  "filtered_pages": {
+    "writable_book": {
+      "name": "writable_book_contents.pages[].filtered"
+    },
+    "written_book": {
+      "name": "written_book_contents.pages[].filtered"
+    }
+  },
+  "title": {
+    "*": {
+      "name": "written_book_contents.title.text"
+    }
+  },
+  "filtered.title": {
+    "*": {
+      "name": "written_book_contents.title.filtered"
+    }
+  },
+  "author": {
+    "*": {
+      "name": "written_book_contents.author"
+    }
+  },
+  "generation": {
+    "*": {
+      "name": "written_book_contents.generation"
+    }
+  },
+  "resolved": {
+    "*": {
+      "name": "written_book_contents.resolved"
+    }
+  },
+  "trim": {
+    "*": {
+      "name": "Trim"
+    }
+  },
+  "effects": {
+    "*": {
+      "name": "suspicious_stew"
+    }
+  },
+  "DebugProperty": {
+    "*": {
+      "name": "debug_stick_state"
+    }
+  },
+  "EntityTag": {
+    "*": {
+      "name": "entity_data"
+    }
+  },
+  "BucketVariantTag": {
+    "*": {
+      "name": "bucket_entity_data.BucketVariantTag"
+    }
+  },
+  "EntityTag.NoAI": {
+    "cod_bucket": {
+      "name": "bucket_entity_data.NoAI"
+    },
+    "salmon_bucket": {
+      "name": "bucket_entity_data.NoAI"
+    },
+    "tropical_fish_bucket": {
+      "name": "bucket_entity_data.NoAI"
+    },
+    "pufferfish_bucket": {
+      "name": "bucket_entity_data.NoAI"
+    },
+    "axolotl_bucket": {
+      "name": "bucket_entity_data.NoAI"
+    },
+    "tadpole_bucket": {
+      "name": "bucket_entity_data.NoAI"
+    },
+    "*": {
+      "name": "entity_data.NoAI"
+    }
+  },
+  "EntityTag.Silent": {
+    "cod_bucket": {
+      "name": "bucket_entity_data.Silent"
+    },
+    "salmon_bucket": {
+      "name": "bucket_entity_data.Silent"
+    },
+    "tropical_fish_bucket": {
+      "name": "bucket_entity_data.Silent"
+    },
+    "pufferfish_bucket": {
+      "name": "bucket_entity_data.Silent"
+    },
+    "axolotl_bucket": {
+      "name": "bucket_entity_data.Silent"
+    },
+    "tadpole_bucket": {
+      "name": "bucket_entity_data.Silent"
+    },
+    "*": {
+      "name": "entity_data.Silent"
+    }
+  },
+  "EntityTag.NoGravity": {
+    "cod_bucket": {
+      "name": "bucket_entity_data.NoGravity"
+    },
+    "salmon_bucket": {
+      "name": "bucket_entity_data.NoGravity"
+    },
+    "tropical_fish_bucket": {
+      "name": "bucket_entity_data.NoGravity"
+    },
+    "pufferfish_bucket": {
+      "name": "bucket_entity_data.NoGravity"
+    },
+    "axolotl_bucket": {
+      "name": "bucket_entity_data.NoGravity"
+    },
+    "tadpole_bucket": {
+      "name": "bucket_entity_data.NoGravity"
+    },
+    "*": {
+      "name": "entity_data.NoGravity"
+    }
+  },
+  "EntityTag.Glowing": {
+    "cod_bucket": {
+      "name": "bucket_entity_data.Glowing"
+    },
+    "salmon_bucket": {
+      "name": "bucket_entity_data.Glowing"
+    },
+    "tropical_fish_bucket": {
+      "name": "bucket_entity_data.Glowing"
+    },
+    "pufferfish_bucket": {
+      "name": "bucket_entity_data.Glowing"
+    },
+    "axolotl_bucket": {
+      "name": "bucket_entity_data.Glowing"
+    },
+    "tadpole_bucket": {
+      "name": "bucket_entity_data.Glowing"
+    },
+    "*": {
+      "name": "entity_data.Glowing"
+    }
+  },
+  "EntityTag.Invulnerable": {
+    "cod_bucket": {
+      "name": "bucket_entity_data.Invulnerable"
+    },
+    "salmon_bucket": {
+      "name": "bucket_entity_data.Invulnerable"
+    },
+    "tropical_fish_bucket": {
+      "name": "bucket_entity_data.Invulnerable"
+    },
+    "pufferfish_bucket": {
+      "name": "bucket_entity_data.Invulnerable"
+    },
+    "axolotl_bucket": {
+      "name": "bucket_entity_data.Invulnerable"
+    },
+    "tadpole_bucket": {
+      "name": "bucket_entity_data.Invulnerable"
+    },
+    "*": {
+      "name": "entity_data.Invulnerable"
+    }
+  },
+  "EntityTag.Health": {
+    "cod_bucket": {
+      "name": "bucket_entity_data.Health"
+    },
+    "salmon_bucket": {
+      "name": "bucket_entity_data.Health"
+    },
+    "tropical_fish_bucket": {
+      "name": "bucket_entity_data.Health"
+    },
+    "pufferfish_bucket": {
+      "name": "bucket_entity_data.Health"
+    },
+    "axolotl_bucket": {
+      "name": "bucket_entity_data.Health"
+    },
+    "tadpole_bucket": {
+      "name": "bucket_entity_data.Health"
+    },
+    "*": {
+      "name": "entity_data.Health"
+    }
+  },
+  "EntityTag.Age": {
+    "cod_bucket": {
+      "name": "bucket_entity_data.Age"
+    },
+    "salmon_bucket": {
+      "name": "bucket_entity_data.Age"
+    },
+    "tropical_fish_bucket": {
+      "name": "bucket_entity_data.Age"
+    },
+    "pufferfish_bucket": {
+      "name": "bucket_entity_data.Age"
+    },
+    "axolotl_bucket": {
+      "name": "bucket_entity_data.Age"
+    },
+    "tadpole_bucket": {
+      "name": "bucket_entity_data.Age"
+    },
+    "*": {
+      "name": "entity_data.Age"
+    }
+  },
+  "EntityTag.Variant": {
+    "cod_bucket": {
+      "name": "bucket_entity_data.Variant"
+    },
+    "salmon_bucket": {
+      "name": "bucket_entity_data.Variant"
+    },
+    "tropical_fish_bucket": {
+      "name": "bucket_entity_data.Variant"
+    },
+    "pufferfish_bucket": {
+      "name": "bucket_entity_data.Variant"
+    },
+    "axolotl_bucket": {
+      "name": "bucket_entity_data.Variant"
+    },
+    "tadpole_bucket": {
+      "name": "bucket_entity_data.Variant"
+    },
+    "*": {
+      "name": "entity_data.Variant"
+    }
+  },
+  "EntityTag.HuntingCooldown": {
+    "cod_bucket": {
+      "name": "bucket_entity_data.HuntingCooldown"
+    },
+    "salmon_bucket": {
+      "name": "bucket_entity_data.HuntingCooldown"
+    },
+    "tropical_fish_bucket": {
+      "name": "bucket_entity_data.HuntingCooldown"
+    },
+    "pufferfish_bucket": {
+      "name": "bucket_entity_data.HuntingCooldown"
+    },
+    "axolotl_bucket": {
+      "name": "bucket_entity_data.HuntingCooldown"
+    },
+    "tadpole_bucket": {
+      "name": "bucket_entity_data.HuntingCooldown"
+    },
+    "*": {
+      "name": "entity_data.HuntingCooldown"
+    }
+  },
+  "instrument": {
+    "*": {
+      "name": "instrument"
+    }
+  },
+  "Recipes": {
+    "*": {
+      "name": "recipes"
+    }
+  },
+  "LodestonePos": {
+    "*": {
+      "name": "lodestone_target.pos"
+    }
+  },
+  "LodestoneDimension": {
+    "*": {
+      "name": "lodestone_target.dimension"
+    }
+  },
+  "LodestoneTracked": {
+    "*": {
+      "name": "lodestone_target.tracked"
+    }
+  },
+  "Explosion": {
+    "*": {
+      "name": "firework_explosion"
+    }
+  },
+  "Explosion.Type": {
+    "*": {
+      "name": "firework_explosion.shape",
+      "values": {
+        "0": "small_ball",
+        "1": "large_ball",
+        "2": "star",
+        "3": "creeper",
+        "4": "burst"
+      }
+    }
+  },
+  "Explosion.Colors": {
+    "*": {
+      "name": "firework_explosion.colors"
+    }
+  },
+  "Explosion.FadeColors": {
+    "*": {
+      "name": "firework_explosion.fade_colors"
+    }
+  },
+  "Explosion.Trail": {
+    "*": {
+      "name": "firework_explosion.has_trail"
+    }
+  },
+  "Explosion.Flicker": {
+    "*": {
+      "name": "firework_explosion.has_twinkle"
+    }
+  },
+  "Fireworks": {
+    "*": {
+      "name": "fireworks"
+    }
+  },
+  "Fireworks.Explosions": {
+    "*": {
+      "name": "fireworks.explosions"
+    }
+  },
+  "Fireworks.Explosions[].Type": {
+    "*": {
+      "name": "fireworks.explosions.shape",
+      "values": {
+        "0": "small_ball",
+        "1": "large_ball",
+        "2": "star",
+        "3": "creeper",
+        "4": "burst"
+      }
+    }
+  },
+  "Fireworks.Explosions[].Colors": {
+    "*": {
+      "name": "fireworks.explosions.colors"
+    }
+  },
+  "Fireworks.Explosions[].FadeColors": {
+    "*": {
+      "name": "fireworks.explosions.fade_colors"
+    }
+  },
+  "Fireworks.Explosions[].Trail": {
+    "*": {
+      "name": "fireworks.explosions.has_trail"
+    }
+  },
+  "Fireworks.Explosions[].Flicker": {
+    "*": {
+      "name": "fireworks.explosions.has_twinkle"
+    }
+  },
+  "SkullOwner": {
+    "*": {
+      "name": "profile"
+    }
+  },
+  "BlockEntityTag.note_block_sound": {
+    "*": {
+      "name": "note_block_sound"
+    }
+  },
+  "BlockEntityTag.Base": {
+    "*": {
+      "name": "base_color",
+      "values": {
+        "0": "white",
+        "1": "orange",
+        "2": "magenta",
+        "3": "light_blue",
+        "4": "yellow",
+        "5": "lime",
+        "6": "pink",
+        "7": "gray",
+        "8": "light_gray",
+        "9": "cyan",
+        "10": "purple",
+        "11": "blue",
+        "12": "brown",
+        "13": "green",
+        "14": "red",
+        "15": "black"
+      }
+    }
+  },
+  "BlockEntityTag.Patterns": {
+    "*": {
+      "name": "banner_patterns"
+    }
+  },
+  "BlockEntityTag.Patterns[].Pattern": {
+    "*": {
+      "name": "banner_patterns.pattern"
+    }
+  },
+  "BlockEntityTag.Patterns[].Color": {
+    "*": {
+      "name": "banner_patterns.color"
+    }
+  },
+  "BlockEntityTag.sherds": {
+    "*": {
+      "name": "pot_decorations"
+    }
+  },
+  "BlockEntityTag.Items": {
+    "*": {
+      "name": "container"
+    }
+  },
+  "BlockEntityTag.Bees": {
+    "*": {
+      "name": "bees"
+    }
+  },
+  "BlockEntityTag.Lock": {
+    "*": {
+      "name": "lock"
+    }
+  },
+  "BlockEntityTag.LootTable": {
+    "*": {
+      "name": "container_loot.loot_table"
+    }
+  },
+  "BlockEntityTag.LootTableSeed": {
+    "*": {
+      "name": "container_loot.seed"
+    }
+  },
+  "BlockEntityTag": {
+    "*": {
+      "name": "block_entity_data"
+    }
+  },
+  "BlockStateTag": {
+    "*": {
+      "name": "block_state"
+    }
+  }
+}
